@@ -162,6 +162,7 @@ export default class Menu {
           );
           break;
 
+        // to-do, render create new room id page and drag the ball effect //
         case "createNewRoom":
           this.swapLoadingMessageBox(true);
           game = new Game(
@@ -172,6 +173,7 @@ export default class Menu {
           );
           console.log("hiiiiiiiiiiiiiiiiiii");
           break;
+        // to-do //
 
         default:
           this.swapLoadingMessageBox(true);
