@@ -1,16 +1,8 @@
-import createRoom from "./createRoom";
-import Video from "./videoGUI";
+import videoGui from "./video_Gui";
 
 window.addEventListener("DOMContentLoaded", () => {
-  // create new room stufff
-  let room = new createRoom("renderCanvas");
-  room;
-
-  let videogui = new Video("renderCanvas");
-  videogui;
-
   // Create the game using the 'renderCanvas'.
-  // let menu = new Menu("renderCanvas");
+  let menu = new videoGui("renderCanvas");
   // Create the scene.
-  // menu.createMenu();
+  menu.createScene();
 });

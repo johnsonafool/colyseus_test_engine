@@ -1,8 +1,8 @@
 import * as BABYLON from "babylonjs";
 import * as GUI from "babylonjs-gui";
 import { Room } from "colyseus.js";
-import Menu from "./menu";
 import { createSkyBox } from "./utils";
+import Menu from "./video_Gui";
 
 const GROUND_SIZE = 500;
 
@@ -243,7 +243,7 @@ export default class Game {
   private gotoMenu() {
     this.scene.dispose();
     const menu = new Menu("renderCanvas");
-    menu.createMenu();
+    menu.createScene();
   }
 
   private doRender(): void {
