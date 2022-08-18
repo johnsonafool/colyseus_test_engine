@@ -12,7 +12,7 @@ const ENDPOINT = "ws://localhost:2567";
 
 // const ENDPOINT = "wss://tutorial-babylonjs-server.glitch.me";
 
-export default class Menu {
+export default class Video {
   private _canvas: HTMLCanvasElement;
   private _engine: BABYLON.Engine;
   private _scene: BABYLON.Scene;
